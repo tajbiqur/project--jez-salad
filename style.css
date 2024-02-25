@@ -1,0 +1,524 @@
+/* GOLOBAL CSS CODE START */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+/* GOLOBAL CSS CODE END */
+/* HEADER SECTIN CSS CODE START */
+header {
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.container .flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.container .flex-box .box-1 h3 {
+    font-size: 20px;
+}
+
+.container .flex-box .box-1 h3 span {
+    color: #FB9333;
+}
+
+.container .flex-box .box-2 ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+
+.container .flex-box .box-2 ul .home {
+    color: #FB9333;
+}
+
+.container .flex-box .box-3 {
+    align-items: center;
+}
+
+.container .flex-box .box-3 a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #FB9333;
+    padding: 10px 23px;
+    border-radius: 20px;
+
+}
+
+/* HEADER SECTION CSS CODE END */
+/* BANNER SECTION CSS CODE START */
+.banner {
+    width: 100%;
+}
+
+.banner .container .flex-box-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.banner .container .flex-box-1 .text h5 p {
+    color: #FB9333;
+    background-color: #FFE8C8;
+    width: 209px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.banner .container .flex-box-1 .text h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    width: 450px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.banner .container .flex-box-1 .text h1 span {
+    color: #FB9333;
+}
+
+.banner .container .flex-box-1 .text p {
+    color: #828282;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.banner .container .flex-box-1 .text a {
+    font-size: 20px;
+    color: black;
+    border: 2px solid #000;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 22px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner .container .flex-box-1 .text a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    transition: all 0.3s linear;
+    background-color: #FB9333;
+    border-radius: 20px;
+
+}
+
+.banner .container .flex-box-1 .text a:hover::after {
+    width: 100%;
+    z-index: -1;
+}
+
+.flex-box-3 {
+    display: flex;
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 18px;
+
+}
+
+.flex-box-3 .box {
+    margin-right: 40px;
+
+}
+
+.banner .container .flex-box-1 .image img {
+    width: 90%;
+    margin-left: 80px;
+
+}
+
+/* BANNER SECTION CSS CODE END */
+/* CHOOSE SECTION CSS CODE START */
+.choose {
+    width: 100%;
+}
+
+.choose .container .flex-box-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.choose .container .flex-box-4 .text-1 {
+    flex-basis: 60%;
+}
+
+.choose .container .flex-box-4 .text-2 {
+    flex-basis: 40%;
+}
+
+.choose .container .flex-box-4 .text-1 h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.choose .container .flex-box-4 .text-1 h2 span {
+    color: #FB9333;
+}
+
+.choose .container .flex-box-4 .text-2 p {
+    font-size: 18px;
+    width: 75%;
+    margin-left: 10px;
+}
+
+/* CHOOSE SECTION CSS CODE END */
+/* HEALTHY SECTION CSS START */
+.healthy {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.healthy .container .flex-box-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.healthy .container .flex-box-5 .box {
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 25px;
+    border: 1px solid #FFE8C8;
+}
+
+.healthy .container .flex-box-5 .box-1 {
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 25px;
+    border: 1px solid #FFE8C8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.healthy .container .flex-box-5 .box:hover {
+    transition: all 0.3s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.healthy .container .flex-box-5 .box img {
+    width: 125px;
+    height: 125px;
+}
+
+.healthy .container .flex-box-5 .box-1 img {
+    width: 125px;
+    height: 125px;
+}
+
+.healthy .container .flex-box-5 .box h3 {
+    font-size: 25px;
+    margin-top: 65px;
+}
+
+.healthy .container .flex-box-5 .box-1 h3 {
+    font-size: 25px;
+    margin-top: 65px;
+}
+
+.healthy .container .flex-box-5 .box p {
+    line-height: 25px;
+    margin-top: 20px;
+    width: 265px;
+}
+
+.healthy .container .flex-box-5 .box-1 p {
+    line-height: 25px;
+    margin-top: 20px;
+    width: 265px;
+}
+
+.healthy .container .flex-box-5 .box-1 .more p {
+    background-color: #FB9333;
+    padding: 8px 16px;
+    width: 107px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* HEALTHY SECTION CSS END */
+/* ABOUT SECTION CSS CODE START */
+.about {
+    width: 100%;
+    background-color: #f7d9bc;
+    margin-top: 50px;
+    position: relative;
+}
+
+.about .container .flex-box-6 .box-2 img {
+    position: absolute;
+    right: 600px;
+    top: 55px;
+}
+
+.about .container .flex-box-6 .box-3 img {
+    position: absolute;
+    right: 380px;
+    top: 55px;
+}
+
+.about .container .flex-box-6 .box-4 img {
+    position: absolute;
+    right: 165px;
+    top: 55px;
+}
+
+.about .container .flex-box-6 {
+    display: flex;
+    align-items: center;
+    height: 550px;
+}
+
+.about .container .flex-box-6 .box-1 {
+    flex-basis: 70%;
+    width: 40%;
+
+}
+
+.about .container .flex-box-6 .box-1 h2 {
+    font-size: 40px;
+    width: 60%;
+    line-height: 45px;
+}
+
+.about .container .flex-box-6 .box-1 span {
+    color: #FB9333;
+
+}
+
+.about .container .flex-box-6 .box-1 p {
+    font-size: 20px;
+    color: #828282;
+    width: 80%;
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+.about .container .flex-box-6 .box-1 h3 {
+    font-size: 40px;
+    padding-top: 20px;
+
+}
+
+.about .container .flex-box-6 .box-1 sub {
+    color: #828282;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about .container .flex-box-6 .box-2,
+.about .container .flex-box-6 .box-3,
+.about .container .flex-box-6 .box-4 {
+    flex-basis: 30%;
+    width: 270px;
+    height: 350px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.about .container .flex-box-6 h4 {
+    font-size: 25px;
+    padding: 8px 20px;
+    color: white;
+    background-color: #FB9333;
+    width: 11%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about .container .flex-box-6 .box-2 h3,
+.about .container .flex-box-6 .box-3 h3,
+.about .container .flex-box-6 .box-4 h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+
+}
+
+.about .container .flex-box-6 .box-2 span,
+.about .container .flex-box-6 .box-3 span,
+.about .container .flex-box-6 .box-4 span {
+    padding-left: 10px;
+    color: #828282;
+
+}
+
+.about .container .flex-box-6 .box-2 p,
+.about .container .flex-box-6 .box-3 p,
+.about .container .flex-box-6 .box-4 p {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    line-height: 25px;
+}
+
+/* ABOUT SECTION CSS CODE END */
+/* MENU SECTION CSS CODE START */
+.menu {
+    width: 100%;
+}
+
+.menu .menu-1 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.menu .menu-1 p {
+    font-size: 18px;
+    color: #FB9333;
+    margin-bottom: 10px;
+}
+
+.menu .menu-1 h2 {
+    font-size: 30px;
+}
+
+.menu .menu-1 span {
+    color: #FB9333;
+}
+
+.menu .container .flex-box-7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .container .flex-box-7 .box {
+    width: 350px;
+    height: 520px;
+    margin-left: 5px;
+}
+
+.subscribe {
+    width: 100%;
+}
+
+.subscribe .container {
+    height: 500px;
+    background-color: #FFF1DE;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.subscribe .container h3 {
+    color: #FB9333;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.subscribe .container h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.subscribe .container p {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.subscribe .container .search {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.subscribe .container a {
+    position: absolute;
+    margin-top: 4px;
+    padding: 7px 10px;
+    background-color: #FB9333;
+    right: 487px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+/* MENU SECTION CSS CODE END */
+.footer{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.footer .container .flex-box-8{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .flex-box-8 .box-1 span{
+    color: #FB9333;
+}
+.footer .container .flex-box-8 .box-1 p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.footer .container .flex-box-8 .box-2 ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+.footer .container .flex-box-8 .box-2 ul li span{
+    color: #FB9333;
+    font-size: 20px;
+}
+.footer .container .flex-box-8 .box-3 ul li{
+    list-style-type: none;
+    line-height: 25px;
+}
+.footer .container .flex-box-8 .box-3 ul li span{
+    color: #FB9333;
+    font-size: 20px;
+}
+.name{
+    text-align: center;
+    margin-bottom: 20px;
+}
